@@ -10,11 +10,6 @@ void displayWelcomeScreen() {
               << "\033[0m"; // Reset color
 }
 
-void loginMenu() {
-    std::cout << "[1] Sign In\n[2] Register\n";
-    // Handle input
-}
-
 void showMainMenu() {
     std::cout << "Main Menu:\n"
               << "[1] New Loan\n[2] Settings\n[3] Exit\n";
